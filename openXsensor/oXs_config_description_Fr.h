@@ -1,7 +1,7 @@
 /*
 *************************************************************************************
 *                                  Information importante:
-*  Ne pas modifier ce fichier a mois de vouloir y a jouter vos propre commentaire.
+*  Ne pas modifier ce fichier à moins de vouloir y ajouter vos propres commentaires.
 *  Pour configurer votre OXS, vous devez modifier au moins le fichier oXs_config_basic.h
 *  Dans certains cas, vous devrez également modifier le fichier oXs_config_advanced.h
 *************************************************************************************
@@ -17,22 +17,22 @@ Ecrit par par Rainer Schlosshan traduction Thierry ZINK
 *  1 - Choix du protocole de télémétrie
 *    1.1 - Sélection de la sortie vers le récepteur
 *    1.2 - SPORT_SENSOR_ID (utilisé unique pour le protocole FrSky Sport)
-*  2 - Données a transmettre a l'émetteur
-*  3 - réglage de la sortie PPM(optionnel)
+*  2 - Données à transmettre à l'émetteur
+*  3 - Réglage de la sortie PPM(optionnel)
 *  4 - Réglage Vario (le vario est optionnel)
 *   4.1 - Connections de 1 ou 2 capteurs barométriques 
-*   4.2 - Type de vitesse vertical envoyé
+*   4.2 - Type de vitesse verticale envoyée
 *   4.3 - Sensibilité prédéfinie par programmation
-*   4.4 - Sensibilité ajuster depuis l'émetteur
+*   4.4 - Sensibilité ajustée depuis l'émetteur
 *   4.5 - Paramètre hystérésis & compensation de l'altitude à partir du capteur de température 
-*   4.6 - Calcule de la vitesse verticale basée sur le signal PPM (option)
-*   4.7 - Vitesse vertical analogique (optionnel)
-*   4.8 - Calcul des finesses du planeur, calcul moyen des tôt de monter/descente, calcul moyen de l’altitude gagner/perdu (optionnel)
+*   4.6 - Calcul de la vitesse verticale basée sur le signal PPM (option)
+*   4.7 - Vitesse verticale analogique (optionnelle)
+*   4.8 - Calcul des finesses du planeur, calcul moyen des taux de montée/descente, calcul moyen de l’altitude gagné/perdu (optionnel)
 *  5 – Réglage de la sonde de Pitot (optionnel)
 *  6 – Réglage capteur de tension et de courant (optionnel)
 *   6.1 - Tension de référence pour mesure des tensions et des courants
 *   6.2 - Paramètres des tensions
-*   6.3 - Maximum de cellule LiPo mesurer (et envoyer a l’émetteur)
+*   6.3 - Maximum de cellule LiPo mesurée (et envoyer a l’émetteur)
 *   6.4 - Conversion de tension en température (° Celsius)     
 *   6.5 - Paramètre des capteurs de mesure de courant.
 *   6.6 - Paramètres de Ads1115
@@ -44,8 +44,8 @@ Ecrit par par Rainer Schlosshan traduction Thierry ZINK
 *  20 - Séquenceur  (ON/OFF) pour certaine sortie digitale (Exemple : contrôle de lumière)
 *  xx – Réserver au développeur
 *
-* Note: Les paramètres activé commence par  "#define",  suivi du nom du paramètre et dans la majorité des cas d’une valeur pour ce paramètre
-*        Pour activé ou désactivé les paramètres il faut supprimer ou ajouté les "//" qui précède "#define" Example “// #define ParameterToto Bonjour“ le ParametreToto ne sera pas pris en compte car pour Arduino c’est considérer comme un commentaire. 
+* Note: Les paramètres activés commencent par  "#define",  suivi du nom du paramètre et dans la majorité des cas d’une valeur pour ce paramètre
+*        Pour activer ou désactiver les paramètres il faut supprimer ou ajouter les "//" qui précèdent "#define" Example “// #define ParameterToto Bonjour“ le ParametreToto ne sera pas pris en compte car pour Arduino c’est considéré comme un commentaire. 
 ************************************************************************************************************************
 
 **** 1 - Choix du protocole de télémétrie **********************************************************************
